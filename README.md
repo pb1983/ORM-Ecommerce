@@ -36,4 +36,4 @@
 
 [Repository](https://github.com/pb1983/ORM-Ecommerce)
 
-[Walkthrough Video](https://drive.google.com/file/d/1OW8kL39D0z3tmk89r_-_2-Rk3y6aHMwQ/view)
+[Walkthrough Video](https://drive.google.com/file/d/1kCVIvOxKpKOXgKk2_vsfxU-7itjB0Vww/view)
