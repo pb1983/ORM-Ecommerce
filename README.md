@@ -9,7 +9,6 @@
 
 
 
-
 ## Installation
 
 - Node.js - To download the latest version of npm, on the command line, run the following command: 
