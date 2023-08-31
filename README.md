@@ -7,7 +7,7 @@
 
 ## Description
 
-
+ This assignment replicates the server-side portion of an online retail platform. Using express.js, a functioning API was created to interact with a mySQL database and retireve product information, as well as add, update, and delete inventory types and categories. The data was seeded to mySQL directly so that all products and product tags could persist outside of the server environment. All routes were tested with Insomnia, confirming that the connection between the database and the routes is fully functional and produces the accurate results.  A .env document was also used with the 'dotenv' package to keep passwords and other sensitive data from being viewable on a public repository.  
 
 ## Installation
 
