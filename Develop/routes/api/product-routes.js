@@ -18,7 +18,7 @@ router.get('/', async (req, res) => {
   }
 });
 
-// get one product
+// get one product by ID
 router.get('/:id', async (req, res) => {
   try {
     const productData = await Product.findByPk(req.params.id,
@@ -57,7 +57,7 @@ router.post('/', async (req, res) => {
     });
 });
 
-// update product
+// update productby ID
 router.put('/:id', (req, res) => {
   // update product data
   Product.update(req.body, {
@@ -102,6 +102,7 @@ router.put('/:id', (req, res) => {
     });
 });
 
+//Remove product by ID
 router.delete('/:id', async(req, res) => {
   try {
     const productData = await Product.destroy({
